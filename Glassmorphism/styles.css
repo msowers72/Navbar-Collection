@@ -110,6 +110,10 @@ body {
         border-bottom: rgba(255, 255, 255, .2);
         backdrop-filter: blur(10px);
         z-index: 99;
+        display: none;
+    }
+    .nav-bg.active {
+        display: block;
     }
 }
 
