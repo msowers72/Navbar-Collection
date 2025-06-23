@@ -1,8 +1,6 @@
 const list = document.querySelectorAll('.list');
+console.log(list)
 
-function activeLink() {
-    
-};
 
 function activeLink() {
     list.forEach((item) => item.classList.remove('active'));
